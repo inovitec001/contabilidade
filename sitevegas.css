@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(17, 96, 110);
+    color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+
+
+section {
+    padding: 2em;
+    text-align: center;        
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.whatsapp-button {
+    background-color: #25D366; /* Cor padrão do WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: font-size 0.5s ease-in-out;
+}
+
+#cont {
+    font-size: 40px;
+    
+}
+
+#sobre, #nicho {
+
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(3, 94, 110);
+}
+
+#servicos, #contato {
+    background-color: rgb(17, 96, 110);
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.title-corpo {
+    font-size: 30px;
+}
+
+
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#oscilating-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    animation: heartbeat 4s infinite;
+}
+
+#logo {
+    width: 70px; /* largura desejada */
+    height: auto; /* mantém a proporção da altura com base na largura */
+}
