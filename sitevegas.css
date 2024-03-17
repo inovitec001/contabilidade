@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: rgb(17, 96, 110);
+    background-color: rgb(3, 57, 82);
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
     padding: 1em 0;
@@ -50,11 +50,11 @@ footer {
 #sobre, #nicho {
 
     background-color: rgba(255, 255, 255, 0.904);
-    color: rgb(3, 94, 110);
+    color: rgb(3, 57, 82);
 }
 
 #servicos, #contato {
-    background-color: rgb(17, 96, 110);
+    background-color: rgb(3, 57, 82);
     color: rgba(255, 255, 255, 0.801);
 }
 
